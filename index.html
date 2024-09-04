@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio william</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./javascript.js" defer></script>
+</head>
+<body>
+     <canvas id="canvas">
+            <p>imagem</p>
+        </canvas>
+    <header>
+        <div id="cabecalho">
+            <img id="imagem" src="images (2).jfif" alt="">
+            <p id="aprensentacao">ola! eu sou</p>
+            <p id="nome">William Abreu</p>
+            <p id="descricao">Sou um desenvolvedor Back-End.</p>
+        </div>
+        
+    </header>
+    <div class="about-me">
+        <h2>Sobre Mim</h2>
+        <p>
+            Sou um programador back-end apaixonado por transformar ideias em soluções inovadoras e eficientes. Com uma sólida experiência em <strong>Java</strong> e <strong>Spring Boot</strong>, minha expertise se concentra na criação de aplicações robustas e escaláveis que atendem às necessidades específicas de negócios e usuários.
+        </p>
+        <p>
+            Ao longo da minha carreira, desenvolvi e implementei projetos significativos, incluindo:
+        </p>
+        <ul>
+            <li><strong>Gerador de Recibo</strong>: Um sistema web que facilita a criação e o gerenciamento de recibos com uma interface intuitiva e funcionalidades avançadas para uma gestão eficiente de transações.</li>
+            <li><strong>Sistema Desktop Financeiro</strong>: Uma aplicação desktop completa para o gerenciamento financeiro, que oferece ferramentas detalhadas para o controle de despesas, receitas e relatórios financeiros, proporcionando uma visão clara e precisa das finanças.</li>
+        </ul>
+        <p>
+            <ul>
+           <li> <strong> Sistema PDV para Papelaria </strong> 
+            O projeto em desenvolvimento é um sistema de PDV robusto e intuitivo, projetado especificamente para as necessidades de uma papelaria. O sistema visa otimizar as operações diárias, oferecendo uma interface simples e eficiente para os funcionários realizarem vendas, gerenciar o estoque e fornecer um atendimento rápido e de qualidade aos clientes.</li>
+        </ul>
+        </p>
+    <p>
+        Minha habilidade avançada em <strong>SQL</strong> me permite projetar e otimizar bancos de dados para garantir a integridade e a eficiência das operações. Estou sempre em busca de novos desafios que me permitam expandir minhas habilidades técnicas e criar soluções que não apenas atendam, mas superem as expectativas dos clientes.
+    </p>
+    </div>
+    <div>
+        <canvas id="estrelasmaiores"></canvas>
+    </div>
+    <div id="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="projetos-container">
+            <div class="projeto-item" onclick="openLightbox('gerador grande.png')">
+                <img src="images (1).jfif" alt="Projeto 1">
+                <div class="descricao">Gerador de Recibo - Esse projeto foi feito para um cliente com objetivo de otimizar o processo de gerar recibos <br> CLIQUE!</div>
+            </div>
+            <div class="projeto-item" onclick="openLightbox('financeiro grande.png')">
+                <img src="computador2.jpg" alt="Projeto 2">
+                <div class="descricao">Sistema Financeiro - Aprenda como controlar suas finanças e insvestir de um jeito facil e divertido com um Game de questionario. <br>CLIQUE!</div>
+            </div>
+            <div class="projeto-item" onclick="openLightbox('pdv.png')">
+                <img src="computador3.jpg" alt="Projeto 3">
+                <div class="descricao">Projeto Ponto De Vendas - Esse sistema conta com um sistema de caixa, controle de estoque e financeiro. <br> CLIQUE!</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Lightbox para exibir a imagem maior -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="lightbox-close">&times;</span>
+        <img class="images (1).jfif" id="lightbox-img">
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2024 William De Abreu Pereira. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="https://github.com/seu-usuario" target="_blank" class="social-link github">
+                    <img src="github-icon-2048x2048-qlv5m092.png" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/seu-usuario" target="_blank" class="social-link linkedin">
+                    <img src="icon linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="curriculo.pdf" class="resume-download" download>
+                    <img src="icon pdf.png" alt="Download Currículo">
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+</body>
+</html>
