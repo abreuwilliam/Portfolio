@@ -62,10 +62,10 @@ header {
 
 .about-me {
     color: black;
-    background-color: #585757;
+    background-color: #9b9898;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(34, 34, 34, 0.2);
+    box-shadow: 0 4px 8px rgba(54, 54, 54, 0.2);
     max-width: 800px;
     margin: 120px auto; /* Aumentado para mais espaço no topo */
     text-align: justify;
@@ -92,7 +92,7 @@ header {
 }
 
 .about-me ul li {
-    background: #444;
+    background: #696868;
     margin: 10px 0;
     padding: 10px;
     border-radius: 4px;
@@ -118,7 +118,7 @@ header {
 
 #projetos h2 {
     font-size: 2.5em;
-    color: #fdfafa;
+    color: #9b9898;;
     margin-bottom: 20px;
 }
 
@@ -151,7 +151,7 @@ header {
 
 .projeto-item .descricao {
     padding: 15px;
-    background-color: #fff;
+    background-color: #cfcece;
     color: #333;
     font-size: 1.1em;
 }
@@ -199,7 +199,7 @@ header {
 
 .footer {
     background-color: #222;
-    color: #fff;
+    color: black;
     padding: 40px 0;
     text-align: center;
     position: relative;
