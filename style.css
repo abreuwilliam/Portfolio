@@ -26,7 +26,7 @@ header {
 
 #imagem {
     position: relative;
-    top: 144px;
+    top: 168px;
     left: 93px;
 }
 
@@ -41,12 +41,12 @@ header {
 }
 
 #nome {
-    font-size: 400%;
+    font-size: 650%;
     margin: 0 0 0 400px;
 }
 
 #descricao {
-    font-size: 150%;
+    font-size: 200%;
     margin: 12px 0 0 400px;
     padding: 12px 0 0 0;
 }
