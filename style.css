@@ -20,7 +20,7 @@ header {
 
 #cabecalho {
     background-color: black;
-    color: rgb(167, 164, 164);
+    color: #BFBFBF;
     display: inline-block;
 }
 
@@ -62,7 +62,7 @@ header {
 
 .about-me {
     color: black;
-    background-color: #9b9898;
+    background-color: #C4C4C4;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(54, 54, 54, 0.2);
@@ -92,7 +92,7 @@ header {
 }
 
 .about-me ul li {
-    background: #696868;
+    background: #b1b0b0;
     margin: 10px 0;
     padding: 10px;
     border-radius: 4px;
@@ -118,7 +118,7 @@ header {
 
 #projetos h2 {
     font-size: 2.5em;
-    color: #9b9898;;
+    color: #BFBFBF;;
     margin-bottom: 20px;
 }
 
@@ -199,7 +199,7 @@ header {
 
 .footer {
     background-color: #222;
-    color: black;
+    color: #BFBFBF;
     padding: 40px 0;
     text-align: center;
     position: relative;
@@ -232,8 +232,7 @@ header {
 .social-link img {
     width: 36px;
     height: 36px;
-    transition: transform 0.3s ease, filter 0.3s ease;
-    filter: brightness(0) invert(1);
+   
 }
 
 .social-link:hover img {
@@ -244,8 +243,7 @@ header {
 .resume-download img {
     width: 36px;
     height: 36px;
-    transition: transform 0.3s ease, filter 0.3s ease;
-    filter: brightness(0) invert(1);
+    
 }
 
 .resume-download:hover img {
@@ -253,12 +251,22 @@ header {
     filter: brightness(0.8);
 }
 .icon_inicio{
-    margin: 0px 0px 0px 400px;
+    margin: 0px 20px 0px 400px;
 }
 .icon_inicial{
     display: inline-block;
+   
 
 }
 .icon_inicio2{
-    margin: 0px 0px 0px 0px;
+    margin: 0px 20px 0px 0px;
+}
+.icon_inicio3{
+    margin: 0px 20px 0px 0px;
+}
+.icon_inicio4{
+    margin: 0px 20px 0px 0px;
+}
+.icon_inicio5{
+    margin: 0px 20px 0px 0px;
 }
