@@ -3,97 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio william</title>
+    <title>William Abreu | Backend Engineer</title>
     <link rel="stylesheet" href="style.css">
     <script src="./javascript.js" defer></script>
 </head>
 <body>
-     <canvas id="canvas">
-            <p>imagem</p>
-        </canvas>
-    <header>
-        
-        <div id="cabecalho">
-            <img id="imagem" src="imagens/images (2).jfif" alt="">
-            <p id="aprensentacao">ola! eu sou</p>
-            <p id="nome">William Abreu</p>
-            <p id="descricao">Sou um desenvolvedor Back-End.</p>
+
+<!-- CANVAS FUNDO -->
+<canvas id="canvas"></canvas>
+<canvas id="estrelasmaiores"></canvas>
+
+<header class="hero">
+    <div class="hero-container">
+
+        <img id="imagem" src="imagens/images (2).jfif" alt="William Abreu">
+
+        <div class="hero-text">
+            <h1>William Abreu Pereira</h1>
+            <h2>Backend Engineer | Java & Spring Specialist</h2>
+
+            <p class="headline">
+                Desenvolvimento de sistemas robustos, APIs escaláveis e arquiteturas orientadas a microsserviços.
+            </p>
+
             <div class="icon_inicial">
-                <img class="icon_inicio" src="imagens/java..png" alt="" >
-                <img class="icon_inicio2" src="imagens/python.png" alt="">
-                <img class="icon_inicio3" src="imagens/base-de-dados.png" alt="">
-                <img class="icon_inicio4" src="imagens/script-java.png" alt="">
-                <img class="icon_inicio5" src="imagens/mysql.png" alt="">
+                <img src="imagens/java..png" alt="Java">
+                <img src="script-java.png" alt="Spring Boot">
+                <img src="imagens/mysql.png" alt="SQL">
+                <img src="imagens/base-de-dados.png" alt="Database">
             </div>
         </div>
-        
-    </header>
-    <div class="about-me">
-        <h2>Sobre Mim</h2>
-        <p>
-            Sou um programador back-end apaixonado por transformar ideias em soluções inovadoras e eficientes. Com uma sólida experiência em <strong>Java</strong> e <strong>Spring Boot</strong>, minha expertise se concentra na criação de aplicações robustas e escaláveis que atendem às necessidades específicas de negócios e usuários.
-        </p>
-        <p>
-            Ao longo da minha carreira, desenvolvi e implementei projetos significativos, incluindo:
-        </p>
-        <ul>
-            <li><strong>Gerador de Recibo</strong>: Um sistema web que facilita a criação e o gerenciamento de recibos com uma interface intuitiva e funcionalidades avançadas para uma gestão eficiente de transações.</li>
-            <li><strong>Sistema Desktop Financeiro</strong>: Uma aplicação desktop completa para o gerenciamento financeiro, que oferece ferramentas detalhadas para o controle de despesas, receitas e rendimentos Financeiro, proporcionando uma visão clara e precisa das finanças e insvestimentos.</li>
-        </ul>
-        <p>
-            <ul>
-           <li> <strong> Sistema PDV para Papelaria </strong> 
-            O projeto em desenvolvimento é um sistema de PDV robusto e intuitivo, projetado especificamente para as necessidades de uma papelaria. O sistema visa otimizar as operações diárias, oferecendo uma interface simples e eficiente para os funcionários realizarem vendas, gerenciar o estoque e fornecer um atendimento rápido e de qualidade aos clientes.</li>
-        </ul>
-        </p>
+
+    </div>
+</header>
+
+<section class="about-me">
+    <h2>Sobre Mim</h2>
+
     <p>
-        Minha habilidade avançada em <strong>SQL</strong> me permite projetar e otimizar bancos de dados para garantir a integridade e a eficiência das operações. Estou sempre em busca de novos desafios que me permitam expandir minhas habilidades técnicas e criar soluções que não apenas atendam, mas superem as expectativas dos clientes.
+        Desenvolvedor Back-End com experiência na construção de sistemas empresariais utilizando 
+        <strong>Java</strong>, <strong>Spring Boot</strong> e arquitetura baseada em microsserviços.
     </p>
+
+    <p>
+        Atuo com foco em:
+    </p>
+
+    <ul>
+        <li>Arquitetura RESTful e APIs escaláveis</li>
+        <li>Modelagem e otimização de banco de dados</li>
+        <li>Tratamento de exceções e padronização de erros</li>
+        <li>Boas práticas de Clean Code e SOLID</li>
+        <li>Integração entre serviços e processamento assíncrono</li>
+    </ul>
+
+    <p>
+        Meu objetivo é construir soluções performáticas, resilientes e preparadas para ambientes de produção.
+    </p>
+</section>
+
+<section id="projetos">
+    <h2>Projetos em Destaque</h2>
+
+    <div class="projetos-container">
+
+        <!-- MONITOR VIDA PACIENTE -->
+        <div class="projeto-item">
+            <h3>🏥 Monitor Vida Paciente Em 
+                TempoReal</h3>
+           <p>
+        Sistema distribuído para monitoramento contínuo de sinais vitais com arquitetura orientada a eventos.
+    </p>
+    <ul>
+        <li>Streaming em tempo real via WebSocket/STOMP</li>
+        <li>Processamento de anomalias com alertas críticos</li>
+        <li>Redis para estado volátil de alta performance</li>
+        <li>PostgreSQL para persistência estruturada</li>
+        <li>Autenticação JWT + Spring Security</li>
+    </ul>
+    <a href="https://github.com/abreuwilliam/MonitorVidaPacienteEmTempoReal" target="_blank">
+        Ver no GitHub
+    </a>
+</div>
+
+        <!-- GATEWAY PAGAMENTO -->
+        <div class="projeto-item">
+    <h3>💳 Microserviço Gateway de Pagamento</h3>
+    <p>
+        Microsserviço transacional responsável pelo processamento e validação de operações financeiras em arquitetura distribuída.
+    </p>
+    <ul>
+        <li>Arquitetura baseada em microsserviços</li>
+        <li>Padronização de contratos REST e códigos HTTP</li>
+        <li>Tratamento estruturado de exceções</li>
+        <li>Resiliência com validação e consistência transacional</li>
+        <li>Separação clara entre domínio, aplicação e infraestrutura</li>
+    </ul>
+    <a href="https://github.com/abreuwilliam/microservicoGatawayDePagamento" target="_blank">
+        Ver no GitHub
+    </a>
+</div>
+
+        <!-- PDV -->
+       <div class="projeto-item">
+    <h3>🏪 Sistema Web Ponto de Venda</h3>
+    <p>
+        Sistema web transacional para gestão comercial, contemplando controle de estoque, operações de caixa e processamento de vendas com persistência relacional.
+    </p>
+    <ul>
+        <li>Arquitetura em camadas com separação de responsabilidades</li>
+        <li>Controle de estado de caixa e fluxo de abertura/fechamento</li>
+        <li>Processamento e persistência consistente de vendas</li>
+        <li>Modelagem relacional com integridade referencial (SQL)</li>
+        <li>Backend desenvolvido em Java + Spring Boot</li>
+    </ul>
+    <a href="https://github.com/abreuwilliam/PontoDeVenda" target="_blank">
+        Ver no GitHub
+    </a>
+</div>
     </div>
-    <div>
-        <canvas id="estrelasmaiores"></canvas>
-    </div>
-    <div id="projetos">
-        <h2>Meus Projetos</h2>
-        <div class="projetos-container">
-            <div class="projeto-item"  onclick="openLightbox ('imagens/gerador grande.png')" source media="(max-width: 768px)" srcset="imagens/python.png" type="image/png">
-                <img src="imagens/images (1).jfif" alt="Projeto 1">
-                <div class="descricao">Gerador de Recibo - Esse projeto foi feito para um cliente com objetivo de otimizar o processo de gerar recibos <br> CLIQUE!</div>
-            </div>
-            <div class="projeto-item"  onclick="openLightbox('imagens/financeiro grande.png')">
-                <img src="imagens/computador2.jpg" alt="Projeto 2">
-                <div class="descricao">Sistema Financeiro - Aprenda como controlar suas finanças e insvestir de um jeito facil e divertido com um Game de questionario. <br>CLIQUE!</div>
-            </div>
-            <div class="projeto-item" onclick="openLightbox('imagens/pdv.png')">
-                <img src="imagens/computador3.jpg" alt="Projeto 3">
-                <div class="descricao">Projeto Ponto De Vendas - Esse sistema conta com um sistema de caixa, controle de estoque e financeiro e possibilita anotações para futuros pedidos. <br> CLIQUE!</div>
-            </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-container">
+        <p>© 2026 William Abreu Pereira</p>
+
+        <div class="social-links">
+            <a href="https://github.com/abreuwilliam" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/william-abreu-pereira/" target="_blank">LinkedIn</a>
         </div>
     </div>
-    
-    <!-- Lightbox para exibir a imagem maior -->
-    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
-        <span class="lightbox-close">&times;</span>
-        <img class="imagens/images (1).jfif" id="lightbox-img">
-    </div>
-    <footer class="footer">
-        <div class="footer-container">
-            <p>&copy; 2024 William De Abreu Pereira. Todos os direitos reservados.</p>
-            <div class="social-links">
-                <a href="https://github.com/abreuwilliam" target="_blank" class="social-link github">
-                    <img src="imagens/github.png" alt="GitHub">
-                </a>
-                <a href="https://www.linkedin.com/in/william-abreu-pereira/" target="_blank" class="social-link linkedin">
-                    <img src="imagens/linkedin.png" alt="LinkedIn">
-                </a>
-                <a href="curriculo.pdf" class="resume-download" download>
-                    <img src="imagens/pdf.png" alt="Download Currículo">
-                </a>
-            </div>
-        </div>
-    </footer>
-    
-    
-    
+</footer>
+
 </body>
 </html>
